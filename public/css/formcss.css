@@ -1,0 +1,65 @@
+@charset "utf-8";
+body{margin:0px;padding:0px; font-family:"Microsoft Yahei","Hiragino Sans GB","冬青黑体简体中文 w3",STXihei,"华文细黑","微软雅黑",SimSun,"宋体",Heiti,"黑体",sans-serif; background:#fff; color:#000;}
+h1,h2,h3,h4,h5,h6,p,ul,ol,li,form,dl,dt,dd,table,th,td,blockquote,fieldset,div,label,em{margin:0;padding:0;font-weight:normal;}
+ul{}li{}i,em{ font-style:normal;}
+input, select, textarea, form{ margin:0px; padding:0px;}
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+img{border:0px;vertical-align:top;max-width:100%;}
+
+@media screen and (max-width: 2920px){
+}
+@media screen and (max-width: 1024px){
+}
+@media screen and (max-width: 767px){
+}
+
+.clear{clear:both;}
+
+.block20{padding:0 20px;}
+
+.head{ height:40px; background:#660033; position:fixed; width:100%; top:0px; z-index:999}
+.head .left{ display:block; height:40px; width:30px; position:absolute; left:0px;   background:url(../images/icon/nav-wleft.png) no-repeat 10px center;background-size:15px 15px;}
+.head .right{display:block; height:40px; width:30px; position:absolute; right:0px; background:url(../images/icon/nav-wright.png) no-repeat 0px center;background-size:15px 15px;}
+.head .tit{display:block;padding:0 30px; line-height:40px; height:40px; font-size:1.0rem; font-weight:normal; color:#FFFFFF; text-align:center; overflow:hidden;}
+.head .reflash{display:block; height:40px; width:30px; position:absolute; right:0px; background:url(../images/icon/nav-reflash.png) no-repeat 0px center;background-size:20px 20px;}
+.head .share{display:block; height:40px; width:30px; position:absolute; right:0px; background:url(../images/icon/nav-share.png) no-repeat 0px center;background-size:20px 20px;}
+
+.formlogologin{ padding:30px; text-align:center;}
+.formlogologin img{ width:80px; height:80px;margin-bottom:10px;}
+.formlogologin h3{}
+.formlogoreg{ padding:20px;}
+.formlogoreg img{ width:30px; height:30px; float:left; margin-right:10px;}
+.formlogoreg h3{ font-size:16px; line-height:30px; }
+
+
+.form_w100{width:100%; color:#333; position:relative; padding:10px 0;height:30px;border-bottom:1px solid #eaeaea;font-size:14px;}
+.form_w100 .inx{font-size:14px; width:75%; height:30px; border:0px; padding-left:25%; color:#999;}
+.form_w100 .w100l{position:absolute; left:0px; width:80px; line-height:30px; text-align:left; padding-left:0px; text-align:left; z-index:2}
+.form_w100 .w100r{position:absolute; width:100%; z-index:1;}
+.form_w100 .w100c{position:absolute; width:80px; line-height:30px; font-size:14px; z-index:3; background:#f1f1f1; right:0px; text-align:center;color:#ccc; border-radius: 2px;}
+.form_w100 .w100p{position:absolute; width:80px; line-height:30px; font-size:14px; z-index:3; right:0px; text-align:center;color:#ccc;}
+
+.form_div{width:100%; color:#333; position:relative; padding:10px 0;height:30px;font-size:14px;}
+.form_div .btn{background:#660033; border-radius: 5px; -moz-border-radius:5px; -webkit-border-radius:5px; text-align:center; color:#fff; height:30px; line-height:30px; width:120px; margin:10px auto; cursor:pointer;  border:0px; font-size:14px;}
+.form_div .btnpay{ border-radius: 5px; -moz-border-radius:5px; -webkit-border-radius:5px; color:#fff; height:30px; line-height:30px; width:120px; margin:10px auto; cursor:pointer;  border:0px; font-size:14px; background:#660033;}
+.form_div .alert{ text-align:right; color:#999; padding:10px 0px; font-size:12px;}
+.form_div .alert a{ color:#000000;}
+
+.alert_message{font-size:14px; line-height:30px; padding:30px 0 30px 40px; width:250px; margin:0 auto;}
+.alert_message span{ color:#660033; font-weight:bold;}
+
+.icon_password_f{background:url(../images/icon/formicon_password_f.png) no-repeat center right; background-size:20px 20px;}
+.icon_password{background:url(../images/icon/formicon_password.png) no-repeat center right; background-size:20px 20px;}
+.icon_service{background:url(../images/icon/formicon_service.png) no-repeat center right; background-size:20px 20px;}
+.icon_id{background:url(../images/icon/formicon_id.png) no-repeat center right; background-size:20px 20px;}
+.icon_username{background:url(../images/icon/formicon_username.png) no-repeat center right; background-size:20px 20px;}
+.icon_mobile{background:url(../images/icon/formicon_mobile.png) no-repeat center right; background-size:20px 20px;}
+
+.icon_alert{background:url(../images/icon/formicon_alert.png) no-repeat 0 30px ; background-size:30px 30px;}
+.icon_fail{background:url(../images/icon/formicon_fail.png) no-repeat 0 30px; background-size:30px 30px;}
+.icon_success{background:url(../images/icon/formicon_success.png) no-repeat 0 30px; background-size:30px 30px;}
+
+
+
+
